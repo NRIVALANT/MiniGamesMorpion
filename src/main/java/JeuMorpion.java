@@ -1,7 +1,6 @@
-package main.java;
 import java.util.Scanner;
 
-import main.joueurs.Joueur;
+import joueurs.Joueur;
 
 public class JeuMorpion {
     private Plateau plateau;

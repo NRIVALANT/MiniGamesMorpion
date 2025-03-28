@@ -75,11 +75,11 @@ Pour ajouter de nouvelles dépendances ou modifier la configuration, consultez l
 
 ## Développement
 
-### Modifier le code
+#### Modifier le code
 
 Pour faire des modfications, effectuez des pull request pour vos contibutions.
 
-### Commandes Maven Utiles
+#### Commandes Maven Utiles
 
     - mvn clean: Nettoie le dossier target
     - mvn compile: Compile le code source

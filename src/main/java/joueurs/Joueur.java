@@ -1,4 +1,4 @@
-package main.joueurs;
+package joueurs;
 
 public class Joueur {
     private String nom;
