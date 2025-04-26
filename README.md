@@ -1,28 +1,34 @@
-# MiniGame Morpion
+# 🎮 MiniGames Morpion
 
-Mini jeu local de morpion (Tic-Tac-Toe) affiché dans le terminal, développé en Java avec la programmation orientée objet et géré avec Maven.
+Un mini jeu de morpion (Tic-Tac-Toe) en ligne de commande, développé en Java avec une architecture orientée objet, géré via Maven.
 
-## Fonctionnalités
-- Jeu en local pour deux joueurs personnalisables
-- Mode contre IA avec différents niveaux de difficulté (facile, moyen, difficile)
-- Interface en ligne de commande intuitive avec coordonnées
-- Affichage amélioré du plateau dans le terminal
-- Gestion des erreurs de saisie
-- Possibilité de rejouer une partie
-- Vérification des conditions de victoire et d'égalité
-- Support pour WebSocket (préparation pour une future version en ligne)
+---
 
-## Prérequis
-- Java Development Kit (JDK) 21 ou supérieur
-- Apache Maven 3.6 ou supérieur
-- Visual Studio Code
-- Extension Java et Maven pour Visual Studio Code
+## 🧩 Fonctionnalités
 
-## Installation
-1. Clonez le projet :
-   ```sh
-   git clone https://github.com/votre-utilisateur/MiniGamesMorpion.git
-   cd MiniGamesMorpion
+- 👥 Jeu local pour deux joueurs personnalisables
+- 🤖 Mode contre IA (facile, moyen, difficile)
+- 🖥️ Interface en ligne de commande intuitive
+- 🧠 Vérification des conditions de victoire et d’égalité
+- 🔁 Option pour rejouer
+- ❌ Gestion des erreurs de saisie
+- 🌐 Support WebSocket (préparé pour version en ligne)
+
+---
+
+## ⚙️ Prérequis
+
+- Java Development Kit (JDK) **21** ou supérieur
+- Apache Maven **3.6** ou supérieur
+- Visual Studio Code avec extensions **Java** et **Maven**
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/votre-utilisateur/MiniGamesMorpion.git
+cd MiniGamesMorpion
 
 ## Utilisation
 1. Compiler le projet avec Maven :
@@ -56,21 +62,22 @@ MiniGamesMorpion/
 ├── src/
 │   └── main/
 │       └── java/
-│           ├── [Main.java](http://_vscodecontentref_/0)                         # Point d'entrée de l'application
+│           ├── Main.java                    # Point d’entrée
 │           ├── controller/
-│           │   └── [JeuController.java](http://_vscodecontentref_/1)            # Contrôleur du jeu
+│           │   └── JeuController.java       # Contrôleur du jeu
 │           ├── model/
-│           │   ├── [AbstractJoueur.java](http://_vscodecontentref_/2)           # Classe abstraite pour les joueurs
-│           │   ├── [IJoueur.java](http://_vscodecontentref_/3)                  # Interface joueur
-│           │   ├── [IPlateau.java](http://_vscodecontentref_/4)                 # Interface plateau
-│           │   ├── [JoueurHumain.java](http://_vscodecontentref_/5)             # Implémentation joueur humain
-│           │   ├── [JoueurIA.java](http://_vscodecontentref_/6)                 # Implémentation joueur IA
-│           │   └── [Plateau.java](http://_vscodecontentref_/7)                  # Implémentation plateau
+│           │   ├── AbstractJoueur.java      # Classe abstraite
+│           │   ├── IJoueur.java             # Interface joueur
+│           │   ├── IPlateau.java            # Interface plateau
+│           │   ├── JoueurHumain.java        # Implémentation joueur humain
+│           │   ├── JoueurIA.java            # IA
+│           │   └── Plateau.java             # Plateau de jeu
 │           └── view/
-│               └── [ConsoleView.java](http://_vscodecontentref_/8)              # Gestion de l'interface console
-├── target/                                       # Répertoire généré par Maven (ignoré par Git)
-├── [pom.xml](http://_vscodecontentref_/9)                                       # Configuration Maven
-└── [README.md](http://_vscodecontentref_/10)                                     # Ce fichier
+│               └── ConsoleView.java         # Vue console
+├── target/                                   # Répertoire Maven (build)
+├── pom.xml                                   # Config Maven
+└── README.md                                 # Ce fichier
+
 
 ## Configuration Maven
 
