@@ -13,25 +13,6 @@ Un mini jeu de morpion (Tic-Tac-Toe) en ligne de commande, développé en Java a
 - 🔁 Option pour rejouer
 - ❌ Gestion des erreurs de saisie
 - 🌐 Support WebSocket (préparé pour version en ligne)
-<<<<<<< HEAD
-=======
-
----
-
-## ⚙️ Prérequis
-
-- Java Development Kit (JDK) **21** ou supérieur
-- Apache Maven **3.6** ou supérieur
-- Visual Studio Code avec extensions **Java** et **Maven**
-
----
-
-## 🚀 Installation
-
-```bash
-git clone https://github.com/votre-utilisateur/MiniGamesMorpion.git
-cd MiniGamesMorpion
->>>>>>> 44a3332f062a9e5094efb3137c1859630d4763e0
 
 ---
 
@@ -109,6 +90,7 @@ MiniGamesMorpion/
 ├── target/                                   # Répertoire Maven (build)
 ├── pom.xml                                   # Config Maven
 └── README.md                                 # Ce fichier
+```
 
 ---
 
